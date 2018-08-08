@@ -6,7 +6,7 @@ import WorkHistory from './components/WorkHistory.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div id="app-container">
         <SkillList />
         <EducationHistory />
         <WorkHistory />
